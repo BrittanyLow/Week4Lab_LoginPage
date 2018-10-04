@@ -13,8 +13,9 @@
     </head>
     <body>
         <h1>Home Page</h1>
-        Hello ${user.username}
+        Hello ${name}
+        <br> 
         <br>
-        <a href="login" > Log out</a>
+        <a href="login" name="${logout}"> Log out</a>
     </body>
 </html>
